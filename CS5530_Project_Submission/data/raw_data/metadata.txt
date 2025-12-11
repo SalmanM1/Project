@@ -1,0 +1,121 @@
+Telco_Customer_Churn.csv
+
+1. DATASET INFORMATION
+This dataset contains information about a fictional telecommunications company. Each row represents a customer, and the columns contain customer attributes. The "Churn" column indicates whether the customer left within the last month. The dataset is often used for predicting customer churn. 
+
+Rows: 7,043
+
+Columns: 21
+
+2. SOURCE INFORMATION
+Original File Name: Telco_Customer_Churn.csv
+Source URL: https://www.kaggle.com/datasets/mosapabdelghany/telcom-customer-churn-dataset
+Format: Comma-Separated Values (CSV)
+
+3. COLUMN DESCRIPTIONS
+This dataset contains 21 columns: 
+
+1. customerID
+The unique ID of each customer.
+Text (Alphanumeric)
+"7590-VHVEG", "5575-GNVDE"
+
+2. gender
+The customer's gender.
+Text (Categorical)
+"Female", "Male"
+
+3. SeniorCitizen
+Indicates if the customer is a senior citizen.
+Numeric (Categorical)
+1 (Yes), 0 (No)
+
+4. Partner
+Indicates if the customer has a partner.
+Text (Categorical)
+"Yes", "No"
+
+5. Dependents
+Indicates if the customer has dependents.
+Text (Categorical)
+"Yes", "No"
+
+6. tenure
+The number of months the customer has been with the company.
+Numeric (Integer)
+1 - 72
+
+7. PhoneService
+Indicates if the customer has phone service.
+Text (Categorical)
+"Yes", "No"
+
+8. MultipleLines
+Indicates if the customer has multiple phone lines.
+Text (Categorical)
+"Yes", "No", "No phone service"
+
+9. InternetService
+The type of internet service the customer has.
+Text (Categorical)
+"DSL", "Fiber optic", "No"
+
+10. OnlineSecurity
+Indicates if the customer has online security service.
+Text (Categorical)
+"Yes", "No", "No internet service"
+
+11. OnlineBackup
+Indicates if the customer has online backup service.
+Text (Categorical)
+"Yes", "No", "No internet service"
+
+12. DeviceProtection
+Indicates if the customer has device protection service.
+Text (Categorical)
+"Yes", "No", "No internet service"
+
+13. TechSupport
+Indicates if the customer has tech support service.
+Text (Categorical)
+"Yes", "No", "No internet service"
+
+14. StreamingTV
+Indicates if the customer has a TV streaming service.
+Text (Categorical)
+"Yes", "No", "No internet service"
+
+15. StreamingMovies
+Indicates if the customer has a movie streaming service.
+Text (Categorical)
+"Yes", "No", "No internet service"
+
+16. Contract
+The customer's contract term.
+Text (Categorical)
+"Month-to-month", "One year", "Two year"
+
+17. PaperlessBilling
+Indicates if the customer uses paperless billing.
+Text (Categorical)
+"Yes", "No"
+
+18. PaymentMethod
+The customer's payment method.
+Text (Categorical)
+"Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"
+
+19. MonthlyCharges
+The amount charged to the customer monthly.
+Numeric (Continuous)
+29.85, 56.95
+
+20. TotalCharges
+The total amount charged to the customer.
+Numeric (Continuous)
+29.85, 1889.5
+
+21. Churn
+The target variable, indicating if the customer has churned.
+Text (Categorical)
+"Yes", "No"
